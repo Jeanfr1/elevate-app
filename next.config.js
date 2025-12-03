@@ -8,6 +8,8 @@ const nextConfig = {
       bodySizeLimit: '50mb',
     },
   },
+  // Netlify configuration
+  output: 'standalone',
 }
 
 module.exports = nextConfig
